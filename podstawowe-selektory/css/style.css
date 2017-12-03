@@ -1,0 +1,29 @@
+/*Selektor znacznika*/
+p {
+    color:gray;
+}
+#paragraf
+{
+    color: yellow;
+}
+a, span, div {
+    color:blue;
+}
+ /*selektor bezposrenidego potomka*/
+li >a
+{
+    background-color: yellow;
+}
+ /*selektor bezposreniego rodzenstwa */
+h2+h3
+{
+    color:green;
+}
+ul > li:not(.last)
+{
+    color: violet;
+}
+ol> li:nth-child(2)
+{
+    background-color: orange;
+}
